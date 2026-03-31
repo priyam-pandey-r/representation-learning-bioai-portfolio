@@ -129,13 +129,4 @@ Morphology → Single-cell → Multi-omics → Biological Foundation Models
 Full code is not public due to ongoing research submissions.
 Implementation details can be discussed upon request.
 
----
-
-### Small but important GitHub improvements I applied:
-
-* Cleaner bullet alignment (renders better on mobile + dark mode)
-* Removed extra indentation (GitHub markdown can break it)
-* Consistent bolding (visual hierarchy)
-
----
-
+--
