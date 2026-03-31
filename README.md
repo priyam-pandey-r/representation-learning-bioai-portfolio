@@ -1,4 +1,4 @@
-Perfect — for a **GitHub README**, this is already strong. I’ll keep it **exact**, just apply small GitHub-specific polish (clean spacing, consistent bullets, readability on dark/light themes).
+
 
 ---
 
