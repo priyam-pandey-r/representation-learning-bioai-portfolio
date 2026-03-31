@@ -5,11 +5,12 @@ Multimodal Representation Learning | Bio-AI
 
 ---
 
-## Research Direction
+## Research Focus
 
+I work on **multimodal representation learning for biological systems**, focusing on learning **structured and generalizable embeddings** from complex, heterogeneous data.
+
+**Trajectory:**  
 Representation Learning → Multimodal Systems → Single-Cell → Bio-AI  
-
-My work focuses on learning structured and generalizable representations from complex biological data, with an emphasis on multimodal integration and cross-domain generalization.
 
 ---
 
@@ -17,54 +18,62 @@ My work focuses on learning structured and generalizable representations from co
 
 ### 1. Multimodal Human Activity Recognition (Thermal + Pose)
 
+![HAR Pipeline](assets/har_pipeline.png)
+
 **Problem**  
-Privacy-preserving activity recognition without RGB data  
+Privacy-preserving activity recognition without reliance on RGB data.
 
 **Approach**  
-- Thermal image encoder + pose encoder  
+- Thermal encoder + pose encoder for complementary sensing  
 - Multimodal fusion via attention and gating mechanisms  
 - Proposed **confidence-aware fusion (CGCA, CGHCA)**  
 
 **Results**  
-- Multimodal models outperform unimodal baselines  
-- Improved robustness under modality uncertainty  
+- Consistent improvement over unimodal baselines  
+- Robust performance under modality uncertainty  
+
+![HAR Results](assets/har_results.png)
 
 **Contribution**  
-Reliability-aware multimodal fusion for structured sensor data  
+Reliability-aware multimodal fusion for structured sensor data.
 
 ---
 
 ### 2. Multi-View Representation Learning for Neuronal Morphology
 
+![Morphology Pipeline](assets/morph_pipeline.png)
+
 **Problem**  
-Single-view representations fail to capture full neuronal structure  
+Single-view representations fail to capture full neuronal structure.
 
 **Approach**  
-- Multi-view modeling: graph (topology), point (geometry), voxel (volume)  
+- Multi-view modeling: graph (topology), point cloud (geometry), voxel (volume)  
 - Unified embedding framework with structured fusion  
 - Proposed **Morphogenesis Fusion**  
 
 **Results**  
-- Multi-view > best uni-view across tasks  
-- Improved embedding quality and clustering structure  
+- Multi-view models outperform best uni-view across tasks  
+- Improved embedding quality and latent structure  
+
+![Morphology Results](assets/morph_results.png)
 
 **Contribution**  
-Demonstrated representational complementarity in biological structures  
+Demonstrated representational complementarity in biological structures.
 
 ---
 
-### 3. Multimodal Single-Cell Representation Learning (Ongoing)
+### 3. Multimodal Single-Cell Representation Learning *(Ongoing)*
 
 **Goal**  
-Learn dataset-invariant multimodal embeddings across RNA, ATAC, and protein  
+Learn dataset-invariant multimodal embeddings across RNA, ATAC, and protein.
 
 **Approach**  
 - Modality-specific encoders  
-- Cross-modal alignment (contrastive learning)  
-- Unified embedding with attention-based fusion  
+- Cross-modal alignment via contrastive learning  
+- Attention-based fusion into a shared representation  
 
 **Direction**  
-Toward scalable and generalizable biological representation learning systems  
+Toward scalable and generalizable biological representation learning systems.
 
 ---
 
@@ -76,13 +85,13 @@ Morphology → Single-cell → Multi-omics → Biological Foundation Models
 
 ## Status
 
-- Multimodal HAR project: **paper under review (Q1 journal)**  
-- Morphology project: **manuscript prepared**  
-- Single-cell project: **ongoing**  
+- Multimodal HAR: **paper under review (Q1 journal)**  
+- Morphology: **manuscript prepared**  
+- Single-cell: **ongoing research**  
 
 ---
 
 ## Note
 
 Full code is not public due to ongoing research submissions.  
-I would be happy to discuss implementation details or share details upon request.
+Implementation details can be discussed upon request.
