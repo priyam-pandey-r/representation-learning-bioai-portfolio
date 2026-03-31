@@ -43,16 +43,10 @@ Thermal and pose provide complementary **privacy-preserving alternatives**, but 
 ---
 
 **Results**
-
-* Pose-only: **75.03% / 63.96%** (6-class / 8-class)
-* Thermal-only: **86.05% / 82.87%**
-* Multimodal (Ours):
-
-  * **86.18% (CGHCA, 6-class)**
-  * **84.15% (CGCA, 8-class)**
+![HAR Results](assets/har_results.png)
 * Consistent improvement over unimodal baselines with **low variance across seeds**
 
-![HAR Results](assets/har_results.png)
+
 
 ---
 
