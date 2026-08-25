@@ -22,7 +22,7 @@ Multimodal Representation Learning → 3D Geometric Deep Learning → Protein Fo
 ## Featured Projects
 
 ### 1. ProteinFM — Adaptive Multimodal Protein Foundation Models *(Ongoing)*
-![ProteinFM Pipeline](assets/representation-learning-bioai-portfolio/assets/proteinfm.pdf)
+![ProteinFM Pipeline](assets/protienfm.png)
 A research framework for studying adaptive integration of heterogeneous
 protein foundation-model representations across **evolutionary,
 sequence, and structural information**.
