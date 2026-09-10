@@ -70,10 +70,13 @@ and pose modalities**.
 Developed **Confidence-Gated Cross-Attention (CGCA)** and
 **Cross-Gated Hierarchical Cross-Attention (CGHCA)** for
 confidence-aware multimodal representation fusion
+
 **Status:** First-author publication in *Knowledge-Based Systems* (2026)
+
 **DOI:** `10.1016/j.knosys.2026.116659`
-**Paper:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/
-S0950705126013857)
+
+→ **Paper:** [ScienceDirect]
+(https://www.sciencedirect.com/science/article/pii/S0950705126013857)
 
 → [Project Repository](https://github.com/priyam-pandey-r/multimodal-har-thermal-pose-framework)
 
